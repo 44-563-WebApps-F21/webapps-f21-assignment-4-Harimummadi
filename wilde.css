@@ -30,11 +30,11 @@ p.StageDirection:hover
     color:deepskyblue;
 }
 table,td,tr{
-    border:2px black;
+    border:2px solid black;
     color:solid brown;
 }
 th{
-    border:2px solid brown;
+    border:2px solid rgb(42, 73, 165);
     color:solid black;
     
 }
@@ -47,9 +47,37 @@ th,td{
     padding-bottom: 20px;
     padding-top: 10px;
 }
+tr:nth-child(even)
+{
+    background-color:yellow;
+}
 span h6:hover{
     text-shadow: 0 0 4px;
     border:blanchedalmond;
     color:thistle;
     font-size: 30px;
 }
+.navigation i{
+    padding:16px;
+    color:tomato;
+    float:left;
+    background-color: turquoise;
+    align-content: left;
+    left: 10%;
+    position: relative;
+    text-decoration: thistle;
+    font-size: 16px;
+}
+.navigation i:hover{
+    background-color: royalblue;
+}
+
+.item{
+    color:seagreen;
+    background-color: black;
+}
+.icon{
+    float: right;
+}
+
+
