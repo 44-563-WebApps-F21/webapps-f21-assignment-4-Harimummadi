@@ -13,9 +13,9 @@ p.StageDirection:hover
     background-color: burlywood;
 }
 .speech{
-font-family:Georgia, 'Times New Roman', Times, serif;
-font: size 18px;
-color:maroon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: size 18px;
+    color:maroon;
 }
 .PETER
 {
@@ -27,5 +27,23 @@ color:maroon;
 {
     font-family: Arial, Helvetica, sans-serif;
     font: size 16px;
-    color:gold;
+    color:deepskyblue;
+}
+table,td,tr{
+    border:2px black;
+    color:solid brown;
+}
+th{
+    border:2px solid brown;
+    color:solid black;
+    
+}
+td{
+    text-align: center;
+}
+th,td{
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
